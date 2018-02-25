@@ -38,7 +38,10 @@ local function pop()
 end
 
 local function halt()
-	stopResource(getThisResource())
+	outputChatBox("VM halting")
+	stack = {}
+	ip = 0
+	sp = 0
 end
 
 local function list()
@@ -105,6 +108,7 @@ MUL
 PUSH 50
 PUSH 2
 DIV
+HALT
 		]]
 		VM(code)
 	end
