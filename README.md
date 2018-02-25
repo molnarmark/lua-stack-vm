@@ -1,4 +1,4 @@
-## Stack based simple Virtual Machine Implementation in Lua for MTA:SA. For fun.
+## Stack based simple Virtual Machine Implementation in Lua for MTA:SA
 
 ### Example
 ```
@@ -18,3 +18,5 @@ PUSH 50
 PUSH 2
 DIV
 ```
+
+*For fun.*
